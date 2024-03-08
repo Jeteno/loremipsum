@@ -1,0 +1,1 @@
+const iconMenu=document.querySelector('.menu__icon');const menuBody=document.querySelector('.header__menu-body');if(iconMenu){iconMenu.addEventListener('click',function(){iconMenu.classList.toggle('active__menu');menuBody.classList.toggle('active__menu');if(menuBody.classList.contains('active__menu')){document.body.style.overflow='hidden'}else{document.body.style.overflow=''}})}
